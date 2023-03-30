@@ -22,7 +22,6 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -30,10 +29,10 @@ body { background: #0f0f0f; }
 
 header {
    position: relative;
-   height: 800px;
+   height: 900px;
    min-height: 500px;
    width: 100%;
-   background: #fff url(../images/abstractbackground.webp) no-repeat top center;
+   background: url(../images/abstractbackground.webp) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
