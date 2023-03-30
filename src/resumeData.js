@@ -57,7 +57,7 @@ let resumeData = {
       Achievements: "Some Achievements...",
     },
   ],
-  skillsDescription: "Your skills here",
+  // skillsDescription: "Your skills here",
   skills: [
     {
       skillname: "HTML5",
@@ -113,20 +113,26 @@ let resumeData = {
   ],
   portfolio: [
     {
-      name: "project1",
-      description: "project1",
+      name: "Currency Converter",
+      description: "Technologies Used: HTML, CSS, & JavaScript.",
+      imgurl: "images/portfolio/project1.png"
     },
     {
-      name: "project2",
-      description: "project2",
+      name: "Grocery List Application",
+      description: "Technologies Used: JavaScript, Handlebars, CSS, Node.js, Express.js, Sequelize, mySQL, Twilio, bcrypt, DotENV",
+      imgurl: "images/portfolio/project2.png"
+
     },
     {
-      name: "project3",
-      description: "project3",
+      name: "Re-LEASE Me",
+      description: "Technologies Used: JavaScript, Handlebars, CSS, Node.js, Express.js, Sequelize, mySQL, Twilio, bcrypt, DotENV",
+      imgurl: "images/portfolio/project3.png",
     },
     {
-      name: "project4",
+      name: "TBD",
       description: "project4",
+      imgurl: ""
+
     },
   ],
   testimonials: [

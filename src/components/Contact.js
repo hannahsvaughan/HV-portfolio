@@ -5,28 +5,25 @@ export default class Contact extends Component {
     return (
       <section id="contact">
         <div className="row section-head">
+          <h1>Contact Me</h1>
           <div className="ten columns">
-            <p className="lead">
-              Feel free to contact me for any work or suggestions below
-            </p>
           </div>
         </div>
 
         <div>
           <aside>
-            <div>
+            <div className="center">
               {" "}
-              <form id="contact-form">
+              <form id="form">
                 <div className="form-group">
                   <label htmlFor="name">Name</label>
                   <input type="text" className="form-control" />
                 </div>
                 <div className="form-group">
-                  <label htmlFor="exampleInputEmail1">Email address</label>
+                  <label htmlFor="email">Email address</label>
                   <input
                     type="email"
                     className="form-control"
-                    aria-describedby="emailHelp"
                   />
                 </div>
                 <div className="form-group">
