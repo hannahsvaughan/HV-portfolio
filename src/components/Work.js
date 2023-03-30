@@ -6,10 +6,10 @@ export default class Work extends Component {
     let resumeData = this.props.resumeData;
 
     return (
-      <section id="work">
+      <section id="portfolio">
         <div className="row">
           <div className="twelve columns collapsed">
-            <h1>Check Out Some of My Work</h1>
+            <h1 style={{ textAlign: "center"}}>Check Out Some of My Work</h1>
             <div id="work-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
               {resumeData.portfolio &&
                 resumeData.portfolio.map((item) => {
@@ -17,7 +17,7 @@ export default class Work extends Component {
                     <div className="columns portfolio-item">
                       <div className="item-wrap">
                         <a href="modal-01">
-                          <img src={ComingSoon} className="item-img" alt="" style={{width: "30vh"}}/>
+                          <img src={ComingSoon} className="item-img" alt="" />
                           <div className="overlay">
                             <div className="portfolio-item-meta">
                               <h5>{item.name}</h5>

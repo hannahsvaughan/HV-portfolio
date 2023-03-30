@@ -16,7 +16,7 @@ export default class Header extends Component {
               Hide Navigation
             </a>
             {/* start of navbar */}
-            <ul>
+            <ul id="nav" className="nav">
               <li className="current">
                 <a className="smoothscroll" href="#home">
                   Home
